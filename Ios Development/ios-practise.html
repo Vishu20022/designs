@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>ios-practise</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,
+    900&family=Playfair+Display:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,
+    200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="ios-practise.css">
+  <link rel="stylesheet" href="mobile.css">
+
+</head>
+
+<body>
+  <section class="floating-icons">
+    <div class="container">
+      <div class="row">
+        <div class="sticky">
+                    
+          <div class="float-right-1 fr-1"><a href="https://www.facebook.com/" target="_blank"><img
+                      src="Assets/social-ico1.svg" alt="social"></a><span>Go on Facebook</span></div>
+          <div class="float-right-2 fr-2"><a href="https://www.instagram.com/" target="_blank"><img
+                      src="Assets/social-ico2.svg" alt="social"></a><span>Visit Instagram</span></div>
+          <div class="float-right-3 fr-3"><a href="https://twitter.com/" target="_blank"><img
+                      src="Assets/social-ico3.svg" alt="social"></a><span>Follow on Twitter</span></div>
+          <div class="float-right-4 fr-4"><a href="https://www.youtube.com/" target="_blank"><img
+                      src="Assets/social-ico4.svg" alt="social"></a><span>Check Youtube</span></div>
+        
+      </div>
+      </div>
+    </div>
+
+    </div>
+
+    <!-- <div class="float-right-2"><a href="https://www.instagram.com/" target="_blank"><img
+            src="Assets/social-ico2.svg" alt="social"></a><span>Visit Instagram</span></div>
+        <div class="float-right-3"><a href="https://twitter.com/" target="_blank"><img src="Assets/social-ico3.svg"
+        alt="social"></a><span>Follow on Twitter</span></div>
+  <div class="float-right-4"><a href="https://www.youtube.com/" target="_blank"><img
+        src="Assets/social-ico4.svg" alt="social"></a><span>Check Youtube</span></div>
+    </div> -->
+
+  </section>
+
+  <!-- <section class="two">
+    <div class="container">
+      <div class="row">
+        <div class="floating-images-2">
+          <div class="float-right-2"><a href="https://www.instagram.com/" target="_blank"><img
+            src="Assets/social-ico2.svg" alt="social"></a><span>Visit Instagram</span></div>
+        </div>
+    </div>
+  </section> -->
+  <!-- started -->
+  <section class="header nav-color">
+    <div class="container">
+      <div class="row ">
+        <div class="col-lg-2 col-md-4 col-sm-6 order-1 order-md-0 nav-img">
+          <img src="Assets/logo.png" alt="">
+        </div>
+
+        <div class="col-lg-10 col-md-8 col-sm-6 order-0 order-md-1 nav-list-items">
+          <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <!-- <a class="navbar-brand white" href="#">Navbar</a> -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse main-nav" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-ul">
+                  <li class="nav-item white l1">
+                    <a class="nav-link active red-anchor" aria-current="page" href="#">HOME</a>
+                  </li>
+                  <li class="nav-item white l2">
+                    <a class="nav-link active red-anchor" aria-current="page" href="#">ABOUT US</a>
+                  </li>
+
+                  <li class="nav-item dropdown l3">
+                    <a class="nav-link dropdown-toggle white" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      SERVICES
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item " href="#">Action</a></li>
+                      <li><a class="dropdown-item " href="#">Another action</a></li>
+                      <li>
+                        <hr class="dropdown-divider ">
+                      </li>
+                      <li><a class="dropdown-item " href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item white l4">
+                    <a class="nav-link active red-anchor" aria-current="page" href="#">INDUSTRIES</a>
+                  </li>
+                  <li class="nav-item l5">
+                    <a class="nav-link white" href="#">PORTFOLIO</a>
+                  </li>
+                  <li class="nav-item l6">
+                    <a class="nav-link white" href="#">PRODUCTS</a>
+                  </li>
+                  <li class="btn-plus-image" id="contact_us">
+                    <a href="#">CONTACT US <div class="img"><img src="assets-2/arrow-gif.gif" alt="arrow"></a>
+                  </li>
+                </ul>
+
+              </div>
+
+            </div>
+          </nav>
+          <!-- <div class="btn-header">
+            <a href="#">CONTACT US <div class="img"><img src="assets-2/arrow-gif.gif" alt="arrow"></a></div>
+          </div> -->
+          <!-- <div class="cust-btn">
+            <a href="https://abym.in/dev-url/abym/abym-ci/contact-us" class="btn-nn">Contact Us <svg xmlns="http://www.w3.org/2000/svg" width="40" height="29" viewBox="0 0 40 29">
+                <g id="Group_2130" data-name="Group 2130" transform="translate(0.5)">
+                  <g id="Group_2129" data-name="Group 2129" transform="translate(0 9.123)">
+                    <g id="Group_2015" data-name="Group 2015" transform="translate(22.048 9.902) rotate(-90)">
+                      <line id="Line_16" data-name="Line 16" x2="7.002" transform="translate(4.951 4.951) rotate(-135)" fill="none" stroke="#00a5c9" stroke-linecap="round" stroke-width="1"></line>
+                      <line id="Line_17" data-name="Line 17" x2="7.002" transform="translate(4.951 4.951) rotate(-45)" fill="none" stroke="#00a5c9" stroke-linecap="round" stroke-width="1"></line>
+                    </g>
+                    <line id="Line_103" data-name="Line 103" x2="26.715" transform="translate(0 4.83)" fill="none" stroke="#00a5c9" stroke-linecap="round" stroke-width="1"></line>
+                  </g>
+                  <g id="Ellipse_86" data-name="Ellipse 86" transform="translate(10.5)" fill="none" stroke="#00a5c9" stroke-width="1">
+                    <circle cx="14.5" cy="14.5" r="14.5" stroke="none"></circle>
+                    <circle cx="14.5" cy="14.5" r="14" fill="none"></circle>
+                  </g>
+                </g>
+              </svg></a>
+          </div> -->
+          <!-- <button class="Nav-contact"></button> -->
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- finished -->
+
+  <!-- started -->
+  <section class="rgba-color">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 rgba-width">
+          <form action="#" class="form-fill">
+            <h1>Fill up your details</h1>
+            <div class="input-1">
+              <i class="fa-solid fa-user fa-1"></i>
+              <label for="name" class="input-content-1">Employee Name</label>
+              <input type="text" name="name" id="name">
+            </div>
+
+            <div class="input-2">
+              <i class="fa-solid fa-id-card fa-2"></i>
+              <label for="name" class="input-content-2">Employee ID</label>
+              <input type="text" name="empID" id="empID">
+            </div>
+
+            <div class="input-3">
+              <i class="fa-solid fa-phone fa-3"></i>
+              <label for="phone" class="input-content-3">Mobile No.</label>
+              <input type="tel">
+            </div>
+
+
+            <p>Please select your Gender :</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="html">Male</label><br>
+            <input type="radio" id="Female" name="gender" value="Female">
+            <label for="css">Female</label><br>
+            <input type="radio" id="Others" name="gender" value="Others">
+            <label for="javascript">Others</label><br>
+
+
+            <div class="btn-form">
+              <a href="#">Submit<i class="fa-solid fa-check"></i></a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- finished -->
+
+  <!-- started -->
+  <section class="ios-app-development-services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 order-1 order-md-0">
+          <div class="ios-first">
+            <h1>iOS App</h1>
+            <span class="heading-1">Development Services</span>
+          </div>
+          <p class="ios-para">Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard
+            dummy text ever since the 1500s when an unknown printer took a galley</p>
+
+          <div class="ios-last-btn">
+            <a href="">Consult Our Export Team<i class="fa-solid fa-arrow-right"></i></a></button>
+          </div>
+        </div>
+        <div class="col-lg-5 order-0 order-md-1">
+          <div class="ios-first-android">
+            <img src="Assets/android-mobile-1st.png" alt="android-mobile-image">
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- finished -->
+
+  <!-- started -->
+  <section class="ios-pp-development-company">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="company-img">
+            <img src="Assets/multiple-mobiles.png" alt="multiple-mobiles">
+          </div>
+        </div>
+        <div class="col-lg-6 Development">
+          <h1>iOS App</h1>
+          <span class="heading-1">Development Company</span>
+          <p class="development-para">Lorem Ipsum is simply dummy text of the printing and
+            industry. Lorem Ipsum has been the industry's standard dummy
+            text ever since the 1500s when an unknown printer took a galley</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- finished -->
+
+  <!-- Our Innovative iOS Development Services -->
+  <section class="Our-Innovative-iOS-Development-Services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 innovative-first">
+          <h1>Our Innovative </h1>
+          <span class="heading-1">iOS Development Services</span>
+        </div>
+        <div class="col-lg-12 Development-services">
+          <div class="developemnt-img2">
+            <img src="Assets/innovative-parent.png" alt="">
+          </div>
+
+          <div class="img-content-1 img-content-same">
+            <div class="content-1">
+              <h4>Custom iOS App Development</h4>
+              <p>Lorem Ipsum is simply dummy text of the printing and industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s</p>
+            </div>
+            <div class="img-1">
+              <img src="Assets/innovative-img-1.png" alt="img1">
+            </div>
+          </div>
+
+          <div class="img-content-2 img-content-same">
+            <div class="content-2">
+              <h4>Custom iOS App Development</h4>
+              <p>Lorem Ipsum is simply dummy text of the printing and industry. Lorem Ipsum has been
+                the industry's standard dummy text ever since the 1500s</p>
+            </div>
+            <div class="img-2">
+              <img src="Assets/innovative-img-2.png" alt="img2">
+            </div>
+          </div>
+
+          <div class="img-content-3 img-content-same">
+            <div class="content-3">
+              <h4>Wearable Application Development</h4>
+              <p>Lorem Ipsum is simply dummy text of the printing and industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s</p>
+            </div>
+            <div class="img-3">
+              <img src="Assets/innovative-img-3.png" alt="img1">
+            </div>
+          </div>
+
+          <div class="img-content-4 img-content-same">
+            <div class="img-4">
+              <img src="Assets/innovative-img-4.png" alt="img1">
+            </div>
+            <div class="content-4">
+              <h4>iOS Q/A and Testing</h4>
+              <p>Lorem Ipsum is simply dummy text of the printing and industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s</p>
+            </div>
+          </div>
+
+          <div class="img-content-5 img-content-same">
+            <div class="img-5">
+              <img src="Assets/innovative-img-5.png" alt="img1">
+            </div>
+            <div class="content-5">
+              <h4>iOS UI/UX Solutions</h4>
+              <p>Lorem Ipsum is simply dummy text of the printing and industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s</p>
+            </div>
+          </div>
+
+          <div class="img-content-6 img-content-same">
+            <div class="img-1">
+              <img src="Assets/innovative-img-6.png" alt="img1">
+            </div>
+            <div class="content-6">
+              <h4>App Maintenance & Support</h4>
+              <p>Lorem Ipsum is simply dummy text of the printing and industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- finished -->
+
+  <!-- Apple TV & Wearable App -->
+  <section class="Apple-Tv">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-6 col-sm-6 apple-first order-1 order-md-0">
+          <div class="iphone-content">
+            <div class="iphone-img">
+              <img src="Assets/iphone-img-1.png" alt="iphone-1">
+            </div>
+            <div class="content-iphone">
+              <h4>iPhone App Development</h4>
+              <p>Lorem Ipsum is simply dummy text of the printing and industry.</p>
+            </div>
+          </div>
+
+          <div class="iphone-content">
+            <div class="iphone-img">
+              <img src="Assets/iphone-img-2.png" alt="iphone-2">
+            </div>
+            <div class="content-iphone">
+              <h4>Apple TV & Wearable App</h4>
+              <p>Lorem Ipsum is simply dummy text of the printing and industry..</p>
+            </div>
+          </div>
+
+          <div class="iphone-content">
+            <div class="iphone-img">
+              <img src="Assets/iphone-img-3.png" alt="iphone-3">
+            </div>
+            <div class="content-iphone">
+              <h4>Apple TV & Wearable App</h4>
+              <p>Lorem Ipsum is simply dummy text of the printing and industry..</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-6 order-0 order-md-1">
+          <div class="iphone-main">
+            <img src="Assets/apple-mobile-image.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Industry-Expertise -->
+  <section class="Industry-Expertise">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="industry-first">
+            <p class="ind-para">Industry Expertise</p>
+            <h3>Different Industries we serve</h3>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="img-content-industry">
+            <div class="img-industry">
+              <img src="Assets/industries-1.png" alt="industry">
+
+            </div>
+            <div class="content-industry">
+              <h4>eCommerce</h4>
+              <p> Lorem Ipsum is simply dummy text of the printing and industry.</p>
+            </div>
+          </div>
+
+          <div class="img-content-industry">
+            <div class="img-industry">
+              <img src="Assets/industries-2.png" alt="industry">
+
+            </div>
+            <div class="content-industry">
+              <h4>On Demand</h4>
+              <p> Lorem Ipsum is simply dummy text of the printing and industry.</p>
+            </div>
+          </div>
+          <div class="img-content-industry">
+            <div class="img-industry">
+              <img src="Assets/industries-3.png" alt="industry">
+            </div>
+            <div class="content-industry">
+              <h4>Media and Entertainment </h4>
+              <p> Lorem Ipsum is simply dummy text of the printing and industry.</p>
+            </div>
+          </div>
+          <div class="img-content-industry">
+            <div class="img-industry">
+              <img src="Assets/industries-4.png" alt="industry">
+            </div>
+            <div class="content-industry">
+              <h4>Banking and Finance</h4>
+              <p> Lorem Ipsum is simply dummy text of the printing and industry.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-4">
+          <div class="img-content-industry">
+            <div class="img-industry">
+              <img src="Assets/industries-5.png" alt="industry">
+            </div>
+            <div class="content-industry">
+              <h4>FinTech</h4>
+              <p> Lorem Ipsum is simply dummy text of the printing and industry.</p>
+            </div>
+          </div>
+          <div class="img-content-industry">
+            <div class="img-industry">
+              <img src="Assets/industries-6.png" alt="industry">
+            </div>
+            <div class="content-industry">
+              <h4>Logistics & Transport</h4>
+              <p> Lorem Ipsum is simply dummy text of the printing and industry.</p>
+            </div>
+          </div>
+          <div class="img-content-industry">
+            <div class="img-industry">
+              <img src="Assets/industries-7.png" alt="industry">
+            </div>
+            <div class="content-industry">
+              <h4>Gaming & leisure</h4>
+              <p> Lorem Ipsum is simply dummy text of the printing and industry.</p>
+            </div>
+          </div>
+          <div class="img-content-industry">
+            <div class="img-industry">
+              <img src="Assets/industries-8.png" alt="industry">
+            </div>
+            <div class="content-industry">
+              <h4>Real Estate</h4>
+              <p> Lorem Ipsum is simply dummy text of the printing and industry.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="img-content-industry">
+            <div class="img-industry">
+              <img src="Assets/industries-9.png" alt="industry">
+            </div>
+            <div class="content-industry">
+              <h4>Education & eLearning</h4>
+              <p> Lorem Ipsum is simply dummy text of the printing and industry.</p>
+            </div>
+          </div>
+          <div class="img-content-industry">
+            <div class="img-industry">
+              <img src="Assets/industries-10.png" alt="industry">
+            </div>
+            <div class="content-industry">
+              <h4>Fitness</h4>
+              <p> Lorem Ipsum is simply dummy text of the printing and industry.</p>
+            </div>
+          </div>
+          <div class="img-content-industry">
+            <div class="img-industry">
+              <img src="Assets/industries-11.png" alt="industry">
+            </div>
+            <div class="content-industry">
+              <h4>Food & Restaurants</h4>
+              <p> Lorem Ipsum is simply dummy text of the printing and industry.</p>
+            </div>
+          </div>
+          <div class="img-content-industry">
+            <div class="img-industry">
+              <img src="Assets/industries-12.png" alt="industry">
+            </div>
+            <div class="content-industry">
+              <h4>Travel and Hospitality</h4>
+              <p> Lorem Ipsum is simply dummy text of the printing and industry.</p>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- out-technology -->
+  <section class="out-technology">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="techno-first">
+            <p class="ind-para">OUR TECHNOLOGY</p>
+            <h3> Technologies We Use</h3>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 techno-flex">
+          <div class="techno-1">
+            <img src="Assets/techno-1.png" alt="techno-1">
+            <p class="content-techno-1">Swift</p>
+          </div>
+          <div class="techno-2">
+            <img src="Assets/techno-2.png" alt="techno-1">
+            <p class="content-techno-2">Java</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 techno-flex">
+          <div class="techno-3"><img src="Assets/techno-3.png" alt="techno-1">
+            <p class="content-techno-3">Objective C</p>
+          </div>
+          <div class="techno-4"><img src="Assets/techno-4.png" alt="techno-1">
+            <p class="content-techno-4">C#</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 techno-flex">
+          <div class="techno-5"><img src="Assets/techno-5.png" alt="techno-1">
+            <p class="content-techno-5">Dart</p>
+          </div>
+          <div class="techno-6"><img src="Assets/techno-6.png" alt="techno-1">
+            <p class="content-techno-6">Javascript</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 techno-flex">
+          <div class="techno-7"><img src="Assets/techno-7.png" alt="techno-1">
+            <p class="content-techno-7">React Native</p>
+          </div>
+          <div class="techno-8"><img src="Assets/techno-8.png" alt="techno-1">
+            <p class="content-techno-8">Lua</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="TESTIMONIALS">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p class="testi-relative">TESTIMONIALS</p>
+        </div>
+
+
+        <div class="col-lg-6 col-sm-6 testimonial-left-section ">
+          <div class="head-testimonials">
+            <h5>We’re So Gratefulunderline For The Trust Our Customers</h5>
+            <h5> Have Placed In Us.</h5>
+          </div>
+          <div class="para-testimonial">
+            <p>We Came To Abym Technology Looking For A Change In The Conventional
+              System Where Patients Had To Depend On Call Bells For Getting Assistance.
+              The Team, However, Advised Us Feature Additions That Would Make The Solution
+              Truly All Patients Inclusive. They Made Our Product More Innovative And Useful Than We Had Envisioned.
+              We Came To Abym Looking For A Change In The Conventional System Where Patients</p>
+          </div>
+
+          <div class="testimonials-last">
+            <div class="img-circle">
+              <div class="image-round">
+                <img src="Assets/testimonials-circle-image.png" alt="circle">
+              </div>
+              <div class="testimonial-para">
+                <h6>Builderry LTD</h6>
+                <p>Client of Company</p>
+              </div>
+            </div>
+
+            <div class="testimonial-last-sub">
+              <div class="play">
+                <img src="Assets/testimonials-arrow.svg" alt="play">
+              </div>
+              <div class="play-main">
+                <p>PLAY</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="double-quotes">
+            <img src="Assets/testimonials-double-quotes.svg" alt="quotes">
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-6 testimonial-right-section">
+          <div class="right-image">
+            <img src="Assets/testimonials-image-1.png" alt="testimonial-images">
+          </div>
+          <div class="media-play">
+            <img src="Assets/testimonials-play.svg" alt="play">
+          </div>
+          <div class="triangle-img">
+            <img src="Assets/testimonials-triangle.png" alt="triangle">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- planning -->
+  <div class="planning">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="planning-left">
+            <img src="Assets/estimation-and-suggestion.png" alt="estimation">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="planning-right">
+            <h4 class="plan-relative">ARE YOU PLANNING?</h4>
+            <div class="planning-top">
+              <div class="estimation">
+                <h5>Get Estimation and technology suggestion from</h5>
+                <h5>expert free of cost.</h5>
+              </div>
+
+
+              <div class="planning-form">
+                <form action="#">
+                  <input type="text" placeholder="Name">
+                  <input type="tel" placeholder="Mobile Number">
+                  <input type="email" placeholder="Email">
+                  <textarea name="text" cols="30" rows="8" placeholder="Message"></textarea>
+                  <button><a href="#">SUBMIT<img src="Assets/arrow.svg" alt=""></a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- free-consultation -->
+  <section class="free-consultation">
+    <div class="container">
+      <div class="row row-color">
+        <div class="col-lg-8">
+          <h2>GET A FREE CONSULTATION FROM EXPERTS</h2>
+          <p>PROFESSIONAL SERVICE FOR YOUR SOFTWARE SOLUTIONS</p>
+        </div>
+        <div class="col-lg-4 free-right">
+          <button class="list-first">GET START<i class="fa-solid fa-arrow-right"></i></button>
+          <button class="list-second">CALL US</button>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <section class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-sm-4">
+          <h5>ABOUT US</h5>
+          <ul>
+            <li>Our Company</li>
+            <li> Brand Story </li>
+            <li>Our Team</li>
+            <li> Our Clients</li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-sm-4">
+          <h5>OUR SERVICES</h5>
+          <ul>
+            <li>Design</li>
+            <li>Development</li>
+            <li>Digital Marketing</li>
+            <li>IT Consulting Services</li>
+            <li> Content Writing</li>
+            <li>Server Support</li>
+            <li>DevOps</li>
+            <li> Resources</li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-sm-4">
+          <h5>INDUSTRIES</h5>
+          <ul>
+            <li>Restaurant</li>
+            <li>Real Estate </li>
+            <li> Healthcare</li>
+            <li> Ecommerce</li>
+            <li>Education</li>
+            <li> Games</li>
+            <li>Logistics</li>
+            <li> Agriculture</li>
+            <li> Wellness</li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-sm-4">
+          <h5>PORTFOLIO</h5>
+          <ul>
+            <li>Logistics</li>
+            <li>Travel </li>
+            <li>Finance </li>
+            <li>Agriculture</li>
+            <li> Wellness</li>
+            <li>Events</li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-sm-4">
+          <h5>OTHER</h5>
+          <ul>
+            <li>Logistics</li>
+            <li>Travel </li>
+            <li>Finance </li>
+            <li>Agriculture</li>
+            <li> Wellness</li>
+            <li>Events</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-12">
+        <div class="social-icons">
+          <img src="Assets/social-ico1.svg" alt="social">
+          <img src="Assets/social-ico2.svg" alt="social">
+          <img src="Assets/social-ico3.svg" alt="social">
+          <img src="Assets/social-ico4.svg" alt="social">
+          <img src="Assets/social-ico5.svg" alt="social">
+        </div>
+      </div>
+      <hr>
+    </div>
+  </section>
+
+  <!-- last-footer -->
+  <section class="last-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <p>Copyright © 2023 AbyM. Full stack mobile (iOS, Android) and web app design and development agency</p>
+        </div>
+        <div class="col-lg-4 center">
+          <p>Terms of Use | Privacy Policy | Sitemap</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="ios-practise.js"></script>
+</body>
+
+</html>

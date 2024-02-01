@@ -1,0 +1,210 @@
+@media only screen and (max-width: 767px) {
+
+    .nav-list-items {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    button.navbar-toggler {
+        margin-bottom: 20px;
+    }
+
+    .l1::after {
+        left: 1%;
+    }
+
+    .l2::after {
+        left: 1%;
+    }
+
+    .l3::after {
+        left: 1%;
+    }
+
+    .l4::after {
+        left: 1%;
+    }
+
+    .l5::after {
+        left: 1%;
+    }
+
+    .l6::after {
+        left: 1%;
+    }
+
+    .img-content-industry {
+        display: flex;
+        margin: 2% 0%;
+    }
+
+
+
+    form.form-fill {
+        width: 89%;
+    }
+
+    input#name {
+        width: 99%;
+    }
+
+    input#empID {
+        width: 99%;
+    }
+
+    input[type="tel"] {
+        width: 99%;
+    }
+
+
+
+    section.ios-app-development-services {
+        padding-bottom: 41%;
+        padding-top: 10%;
+    }
+
+    .ios-last-btn {
+        width: 46%;
+        margin: auto;
+    }
+
+    .ios-first {
+        text-align: center;
+    }
+
+    p.ios-para {
+        text-align: center;
+    }
+
+    .ios-first h1,
+    .heading-1 {
+        font-size: 2.0rem;
+    }
+
+    .ios-para {
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    p.ios-para {
+        font-weight: 100;
+        width: 92%;
+    }
+
+
+
+    .Development {
+        margin-top: 4%;
+    }
+
+    .developemnt-img2 {
+        width: 37%;
+    }
+
+    .img-content-same {
+        width: 50%;
+    }
+
+    .img-content-1 {
+        left: 0%;
+    }
+
+    .img-content-2 {
+        left: 0%;
+    }
+
+    .img-content-3 {
+        left: 0%;
+    }
+
+    .img-content-4 {
+        right: 0%;
+    }
+
+    .img-content-5 {
+        right: 0%;
+    }
+
+    .img-content-6 {
+        right: 0%;
+    }
+
+    .Our-Innovative-iOS-Development-Services p {
+        font-size: smaller;
+    }
+
+    .Our-Innovative-iOS-Development-Services h4 {
+        font-size: inherit;
+    }
+
+    .apple-first {
+        width: 48%;
+        margin: 10% 0% 0% 0%;
+        margin: auto;
+        margin-top: 10%;
+    }
+
+    .col-lg-6.testimonial-right-section.order-0.order-md-1 {
+        width: 80%;
+        margin: auto;
+    }
+
+    .testimonial-left-section {
+        padding-bottom: 82%;
+    }
+
+    .planning-form input {
+        width: 99%;
+    }
+
+    .planning-form textarea {
+        width: 99%;
+        height: 117px;
+
+    }
+
+    .right-image {
+        position: absolute;
+        left: 15%;
+        top: 20%;
+    }
+
+    .double-quotes {
+        width: 10%;
+    }
+
+    .double-quotes img {
+        width: 100%;
+    }
+
+    .triangle-img {
+        bottom: 37%;
+    }
+
+    /* ---------------Apple Tv------------- */
+    .iphone-main {
+        width: 52%;
+        margin-top: 20%;
+     
+    }
+
+    .apple-first {
+        width: 100%;
+
+    }
+
+    .planning-right {
+        width: 93%;
+        margin: auto;
+        margin-top: 5%;
+    }
+
+
+
+
+
+
+
+
+
+}

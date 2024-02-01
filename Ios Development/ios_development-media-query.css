@@ -1,0 +1,309 @@
+@media only screen and (max-width: 767px) {
+    .navbar-main {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar-toggler {
+        color: transparent;
+    }
+
+    .navbar-main .navbar-list-items .list-1::after {
+        left: 0px;
+        top: 6px;
+    }
+
+    .navbar-main .navbar-list-items .list-2::after {
+        left: 0px;
+        top: 6px;
+    }
+
+    .navbar-main .navbar-list-items .list-3::after {
+        left: 0px;
+        top: 6px;
+    }
+
+    .navbar-main .navbar-list-items .list-4::after {
+        left: 0px;
+        top: 6px;
+    }
+
+    .navbar-main .navbar-list-items .list-5::after {
+        left: 0px;
+        top: 6px;
+    }
+
+    .navbar-main .navbar-list-items .list-6::after {
+        left: 0px;
+        top: 6px;
+    }
+
+    /* ios-app-development-services */
+    .ios-app-development-services {
+        background-position: center center;
+        background-size: cover;
+    }
+    .ios-app-development-services .app-development-content-one span{
+        font-size: 42px;
+        font-weight: 400;
+    }
+    .image-android {
+        margin: 3% 0% 2% -11%;
+    }
+
+    .app-development-content-one .heading-1 {
+        font-weight: 300;
+    }
+
+
+    /* os-app-development-company */
+    .ios-app-development-company{
+        background-size: cover;
+    }
+    .ios-app-development-company .main{
+        width: 100%;
+    }
+
+    /* "Our-Innovative-iOS-Development-Services" */
+    section.Our-Innovative-iOS-Development-Services {
+        background-size: cover;
+        background-position: center center;
+    }
+    .innovative-images{
+        padding-top: 18%;
+        padding-bottom: 23%;
+    }
+    .innovative-images-sub {
+        width: 36%;
+        margin: auto;
+    }
+
+    .Our-Innovative-iOS-Development-Services h4 {
+        font-weight: 600;
+        font-size: 10px;
+    }
+
+    .Our-Innovative-iOS-Development-Services p {
+        font-size: 8px;
+        font-weight: 400;
+        line-height: 8px;
+    }
+    .Our-Innovative-iOS-Development-Services .img-content {
+        display: flex;
+        width: 32%;
+    }
+   
+    .img-1 {
+        width: 200%;
+    }
+
+    .img-2 {
+        width: 200%;
+    }
+
+    .img-3 {
+        width: 200%;
+    }
+
+    .img-4 {
+        width: 200%;
+    }
+
+    .img-5 {
+        width: 200%;
+    }
+
+    .img-6 {
+        width: 200%;
+    }
+    .img-1 img{width: 100%;} 
+    .img-2 img{width: 100%;} 
+    .img-3 img{width: 100%;} 
+    .img-4 img{width: 100%;} 
+    .img-5 img{width: 100%;} 
+    .img-6 img{width: 100%;} 
+   
+
+    .img-content-1{left: 0%; margin-left: -2%;}
+    .img-content-2{left: 0%; margin-left: -2%;}
+    .img-content-3{left: 0%; margin-left: -2%;}
+    .img-content-4{
+        right: 0%;
+    }
+    .img-content-5{
+        right: 0%;
+    }
+    .img-content-6{
+        right: 0%;
+    }
+
+    /* "iPhone-App-Development" */
+    .iPhone-App-Development{
+        background-size: cover;
+    }
+    .iphone-part1{
+        width: auto;
+        padding: 0%;
+    }
+    .iPhone-App-Development h4{
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .iPhone-App-Development p{
+        font-size: 8px;
+        font-weight: 400;
+    }
+    .equal-divide{
+        width: 50%;
+    }
+    .iPhone-App-Development .apple-iphone {
+        width: 82%;
+    }
+    .iphone-img1 img{
+        width: 100%;
+    }
+
+    /* Industry Expertise */
+    p.industry-para-relative {
+        font-size: 24px;
+        font-weight: 300;
+    }
+    .Industry-Expertise h3{
+        font-size: 28px;
+        font-weight: 400;
+    }
+    .content-flex{
+        display: flex;
+    }
+    .industry-img-content{
+        width: 50%;
+    }
+    .Industry-Expertise h5{
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .industry-img-content p{
+        font-size: 8px;
+        font-weight: 400;
+    }
+    .Industry-Expertise .industry-img img{
+        width: 100%;
+    }
+    .Industry-Expertise .industry-img-content{
+        margin-bottom: 8%;
+    }
+
+    /* Our Technology */
+    .col-lg-3.our-technology-subpart{
+        width: 50%;
+    }
+    .col-lg-3.our-technology-subpart p{
+        font-size: 8px;
+        font-weight: 400;
+    }
+    .our-technology .content-1 {
+        left: 25%;
+    }
+    .our-technology .content-6 {
+        left: 18%;
+    }
+    .our-technology .content-3 {
+        left: 15%;
+    }
+    .our-technology .content-7 {
+        left: 13%;
+    }
+
+    /* testimonial */
+    .TESTIMONIALS .testimonial-relative-first {
+        font-size: 28px;
+        font-weight: 400;
+    }
+    .TESTIMONIALS .testimonial-relative-first::after{
+        width: 19%;
+    }
+    .TESTIMONIALS .img-quotes{
+        width: 8%;
+        top: 28%;
+    }
+    .TESTIMONIALS .img-quotes img{
+        width: 100%;
+    }
+    .TESTIMONIALS .testimonials-image img{
+        margin-left: 2px;
+    }
+    .TESTIMONIALS .testimonial-para{
+        margin-top: 0%;
+    }
+    .TESTIMONIALS .testimonial-last-images{
+        display: block;
+    }
+    .TESTIMONIALS .testimonial-last-images .img-plus-content{
+        position: absolute;
+    bottom: -61%;
+    right: 4%;
+    }
+
+    /* Estimation-and-technology */
+    .Estimation-and-technology .planning {
+        margin-top: 7%;
+        padding: 2%;
+    }
+    .Estimation-and-technology .planning form button{
+        width: 40%;
+    }
+    .Estimation-and-technology .planning form textarea {
+        height: 127px;
+    }
+    .Estimation-and-technology .planning h3{
+        font-size: 18px;
+    font-weight: 400;
+    }
+
+    /* "free-consultation" */
+    .free-consultation h3{
+        font-weight: 400;
+    }
+    .free-consultation p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    /* last-footer */
+    .last-footer .equal-space {
+        font-weight: normal;
+        margin: 0%;
+        margin-top: 2%;
+        font-size: 16px;
+    }
+    .about{
+        margin: 5% 0% 5% 0%
+    }
+    .some-less-space {
+        font-weight: normal;
+        margin: 0%;
+        margin-top: 2%;
+        font-size: 16px;
+    }
+    /* .last-footer ul{
+        display: none;
+    } */
+    .footer-relative{
+        position: relative;
+    }
+    .footer-relative::after {
+        position: absolute;
+        content: '+';
+        top: 0;
+        right: 0;
+    }
+    .last-footer .same-para{
+        font-size: 13px;
+    }
+    .last-footer .social-media-icons {
+        justify-content: flex-start;
+    }
+    button.about-btn{
+        display: block;
+    }
+}
