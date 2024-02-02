@@ -1,0 +1,407 @@
+@media  (min-width:320px) and (max-width: 767px) {
+
+    p{
+        font-size: 11px;
+        font-weight: 300;
+        text-align: justify;
+    }
+    /* header */
+    button.navbar-toggler {
+        margin-bottom: 11%;
+    }
+
+    .navbar-main {
+        display: flex;
+        justify-content: space-between;
+    }
+    button.navbar-toggler {
+        margin-bottom: 0%;
+    }
+    .navbar-brand {
+        width: 58%;
+    }
+    .btn-plus-image a{
+        font-size: 13px;
+    }
+
+    .btn-plus-image {
+        width: 128px;
+        margin-left: 26px;
+        padding: 7px 7px;
+    }
+
+    a.nav-link {
+        font-size: 13px;
+    }
+
+   /* server-support */
+   .server-support h1{
+    font-size: 18px;
+    font-weight: 400;
+   }
+   .server-middle {
+    width: 97%;
+    padding: 4px;
+    margin: 3% 0%;
+}
+   .server-middle h3{
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 14px;
+   }
+   .server-support-head{
+    padding-bottom: 1%;
+   }
+   .server-support-head::before{
+    bottom: 10%;
+   }
+   li.server-btn a{
+    font-size: 10px;
+   }
+   .server-mg {
+    margin-left: 8px;
+    width: 48%;
+}
+.server-btn-last{
+    width: 100%;
+    padding: 3px 9px 3px 0px;
+}
+li.server-btn{
+    padding: 3px;
+}
+li.server-btn img {
+    margin-left: -1px;
+    width: 16px;
+}
+
+/* second section */
+.server-support-right{
+    width: 90%;
+    margin-bottom: 3%;
+}
+.server-support-subpart .server-support-para{
+    padding: 0px 13px;  
+}
+
+.support-para-1 ,.support-para-2 {
+    margin-bottom: 2%;
+    font-size: 11px;
+}
+
+p.IT-server-para-head-p{
+    font-size: 13px;
+    font-weight: 400;
+    padding-right: 0%;
+}
+.IT-server-move-to-left h3{
+    font-size: 20px;
+}
+.IT-server-move-to-left{
+    padding: 2% 5%;
+}
+.img-server img {
+    padding: 0% 3%;
+}
+.no-bg{
+    background-color: white;
+}
+
+/* it-server-management */
+.IT-Server-Management {
+    padding-bottom: 20%;
+    padding-top: 8%;
+}
+.eq-width{
+    width: 90%;
+}
+.second.relative-1.cursor-pointer.server-color{
+    margin-top: 8%
+}
+.second {
+    margin-left: 0px;
+}
+.same-color-bg-tech-differ.mt-top.relative-2.cursor-pointer.server-color{
+    margin-top: 16%;
+}
+.same-color-bg-tech {
+    margin-left: 0%;
+    margin-top: 24%;
+}
+.less-height{
+    height: 90%;
+}
+.img-tech-same{
+    width: 16%;
+}
+.img-tech-same img{
+    width: 100%;
+}
+.IT-Server-Management h5{
+    width: 80%;
+}
+.img-tech-1{
+    top: 7%;
+}
+.img-tech-4 {
+    position: absolute;
+    top: 7%;}
+    .server-color {
+        border-radius: 20px;
+    }
+
+    /* Cloud-Solution-Services */
+    .Cloud-Solution-Services h4{
+        font-size: 28px;
+        font-weight: 400;
+    }
+
+    /* versatile */
+    .img-versatile-same {
+        width: 16%;
+    }
+    .versatile-server-color{
+        padding-top: 6%;
+        height: 91%;
+        border-radius: 20px;
+    }
+    .img-versatile-same img{
+        width: 100%;
+    }
+    .Versatile-Cloud-Implementation{
+        padding-top: 8%;
+        padding-bottom: 0%;
+    }
+    .versatile-same-width{
+        width: 90%;
+    }
+    .Versatile-Cloud-Implementation h5 {
+        width: 80%;
+    }
+    .mt-top-versatile {
+        margin-top: -28px;
+    }
+    .versatile-content-1{
+        top: 6%;
+    }
+    .versatile-content-2{
+        top: 6%;
+    }
+    .versatile-content-4{
+        top: 7%;
+    }
+
+    /* testimonial */
+    .testimonial-customer h5 {
+        font-weight: 400;
+    }
+    .quotes{
+        top: -7px;
+    }
+    .circle-text h6{
+        font-size: 11px;
+        font-weight: 300;
+    }
+    .circle-text p{
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .round-image .circle-text{
+        line-height: 0px;
+        margin-left: 3px;
+        margin-top: 12px;
+    }
+    .arrow-play{
+        margin-left: 44px;
+    }
+    .arrow-play .arrow{
+        padding: 1% 6% 0% 3%;
+        width: 29px;
+        height: 27px;
+    }
+    .arrow-play p {
+        margin-left: 4px;
+        margin-top: 6px;
+    }
+    .arrow-play .arrow img{
+        width: 100%;
+    }
+    .testimonials-right-relative{
+        margin-top: 4%;
+    }
+    .img-play-btn{
+        width: 16%;
+        padding-top: 4%;
+        padding-left: 5%;
+        height: 46px;
+    }
+
+    /* planning */
+    .planning-relative{
+        font-size: 16px;
+    }
+    .estimation {
+        padding-top: 1%;
+        padding-bottom: 2%;
+    }
+    .font-weight {
+        font-weight: 300;
+    }
+    .form button {
+        width: 44%;
+        padding: 1% 4%;
+    }
+    .form button a {
+        font-size: 13px;
+    }
+    .form-input input{
+        font-size: 12px;
+    }
+    .form-input textarea {
+        font-size: 12px;
+        height: 124px;
+    }
+    .planning-img{
+        padding: 25px 0px;
+    }
+
+    /* consultation */
+    .consultation-btns ul {
+        padding: 0px 26px;
+    }
+    .btn-both{
+        padding: 2% 2%;
+        font-size: 13px;
+        width: 48%;
+    }
+    .btn-2 {
+        margin-left: 11px;
+        text-align: center;
+    }
+    .free-left{
+        padding: 2% 2% 0% 2%;
+    }
+    .free-left p{
+        text-align: left;
+    }
+    .free-left h3{
+        font-weight: 300;
+    }
+    
+    /* footer */
+    .Footer{
+        padding: 4% 0%;
+    }
+    /* .Footer ul li{
+        display: none;
+    } */
+
+
+    /* .about{position: relative;}
+    .services{position: relative;}
+    .industries{position: relative;}
+    .portfolio{position: relative;}
+    .other{position: relative;}
+
+    .about::after{position: absolute;content: '+';top: 0%;right: 0%;cursor: pointer;}
+    .services::after{position: absolute;content: '+';top: 0%;right: 0%;cursor: pointer;}
+    .industries::after{position: absolute;content: '+';top: 0%;right: 0%;cursor: pointer;}
+    .portfolio::after{position: absolute;content: '+';top: 0%;right: 0%;cursor: pointer;}
+    .other::after{position: absolute;content: '+';top: 0%;right: 0%;cursor: pointer;} */
+
+
+    .Footer h6 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .social-media-icons{
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+    .mt-negative{
+        margin-top: -23px;
+    }
+    .pd-bottom-versatile{
+        padding-bottom: 15px;
+    }
+
+    .about-main button{
+        display: block;  
+    }
+    .services-main button{
+        display: block;
+    }
+    .industries-main button{
+        display: block;
+    }
+    .portfolio-main button{
+        display: block;
+    }
+    .other-main button{
+        display: block;
+    }
+
+    .about-main{
+        position: relative;
+    }
+    .services-main {
+        position: relative;
+    }
+    .industries-main{
+        position: relative;
+    }
+    .portfolio-main{
+        position: relative;
+    }
+    .other-main{
+        position: relative;
+    }
+
+
+    button.footer-btn-relative-1 {
+        position: absolute;
+        right: 0;
+        background: transparent;
+        border: none;
+        font-size: 23px;
+        top: 0%;
+    }
+    button.footer-btn-relative-2 {
+        position: absolute;
+        right: 0;
+        background: transparent;
+        border: none;
+        font-size: 23px;
+        top: 0%;
+    }
+    button.footer-btn-relative-3 {
+        position: absolute;
+        right: 0;
+        background: transparent;
+        border: none;
+        font-size: 23px;
+        top: 0%;
+    }
+    button.footer-btn-relative-4 {
+        position: absolute;
+        right: 0;
+        background: transparent;
+        border: none;
+        font-size: 23px;
+        top: 0%;
+    }
+    button.footer-btn-relative-5 {
+        position: absolute;
+        right: 0;
+        background: transparent;
+        border: none;
+        font-size: 23px;
+        top: 0%;
+    }
+
+    /* cloud */
+    .cloud-para1{line-height: 20px;}
+    .cloud-para2{line-height: 20px;}
+    .air-ballon {
+        width: 92%;
+    }
+}
