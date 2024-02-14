@@ -1,0 +1,659 @@
+/* parent-properties */
+body {
+    background-color: #242323;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    color: rgb(223, 218, 218);
+    text-align: justify;
+}
+h2{
+    color: palevioletred;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+ /* ---------------------------hacker-floating-started------------------------- */ 
+ .hacker-floating{
+    position: relative;
+ }
+ .floating-icons{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 33%;
+    right: 0%;
+    z-index: 1;
+ }
+ .floating-icons i{
+    font-size: 34px;
+    color: black;
+    cursor: pointer;
+    margin-top: -3px;
+    transition: 0.5s ease-in-out;
+ }
+ .floating-icons a{
+    color: black;
+    display: inline-flex;
+    align-items: center;
+ }
+ .floating-icons span{
+    margin-left: 10px;
+    font-size: 14px;
+ }
+ .float-right-side{
+    background-color: white;
+    border-radius: 10px;
+    height: 29px;
+    width: 15%;
+ }
+
+ .flt-right-1{position: absolute;top: 0px;right: -184px;transition: 0.4s ease-in-out;}
+ .flt-right-2{position: absolute;top: 34px;right: -184px;transition: 0.4s ease-in-out;}
+ .flt-right-4{position: absolute;top: 69px;right: -184px;transition: 0.4s ease-in-out;}
+ .flt-right-5{position: absolute;top: 105px;right: -184px;transition: 0.4s ease-in-out;}
+
+ .flt-right-1:hover{right: -50px;}
+ .flt-right-1:hover i{color: red;}
+.flt-right-2:hover{right: -50px;}
+.flt-right-2:hover i{color: red;} 
+.flt-right-4:hover{right: -50px;}
+.flt-right-4:hover i{color: red;}
+.flt-right-5:hover{right: -50px;}
+.flt-right-5:hover i{color: red;}
+
+ /* ---------------------------hacker-floating-finished------------------------- */ 
+
+/* ---------------------------header-navbar-started------------------------- */
+.header-navbar {
+    background-color: black;
+    color: white;
+}
+
+.navbar-brand {
+    width: 7%;
+    color: red;
+}
+
+.navbar-brand:hover {
+    color: red;
+}
+
+.navbar-brand span {
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.navbar-brand img {
+    width: 100%;
+}
+
+.nav-item {
+    padding: 0px 20px;
+}
+
+.nav-item .nav-link {
+    color: white;
+    position: relative;
+}
+
+.nav-item .nav-link::before {
+    content: '';
+    background-color: red;
+    height: 2px;
+    width: 20px;
+    top: 0%;
+    position: absolute;
+    transition: 0.3s;
+}
+
+.nav-item:hover .nav-link {
+    color: red;
+}
+
+.nav-item:hover .nav-link::before {
+    width: 35px;
+}
+
+.navbar-nav .nav-link.show {
+    color: red;
+}
+
+.navbar button {
+    padding: 8px 21px;
+    margin: 0px 20px;
+}
+
+
+
+/* ---------------------------header-navbar-finished------------------------- */
+
+/* ---------------------------hacker-first-started------------------------- */
+.hacker-first{
+    padding: 4% 0%;
+}
+.hacker-first h1{
+    color: palevioletred;;
+}
+.hacker-first ul li{
+    list-style: square;
+}
+.hacker-points{
+    margin-top: 42px;
+}
+.hacker-first-left-img {
+    width: 62%;
+    margin: auto;
+}
+
+.hacker-first-left-img img {
+    width: 100%;
+}
+/* ---------------------------hacker-first-finished------------------------- */
+
+/* ---------------------------black-hat-started------------------------- */
+.black-hat-hacker {
+    background-image: url('hacker-images/black-hat.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 14% 0% 2%;
+}
+
+.black-hat-left {
+    width: 50%;
+    margin-top: 82px;
+    padding-right: 49px;
+}
+.black-hat-left :nth-child(2){
+    margin-top: 32px;
+}
+.black-hat-left :nth-child(3){
+    margin-top: 32px;
+}
+
+.black-hat-relative {
+    position: relative;
+}
+
+.black-hat-side-img {
+    width: 17%;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+
+.black-hat-side-img img {
+    width: 100%;
+}
+
+/* ---------------------------black-hat-started------------------------- */
+
+/* ---------------------------hacking-tools-started------------------------- */
+.hacking-tools {
+    padding: 4% 0%;
+    background-color: black;
+}
+
+.hacking-tools-head {
+    width: 50%;
+    margin: auto;
+    padding: 1%;
+    border-radius: 10px;
+    border: 2px solid cadetblue;
+    margin-top: 10px;
+    margin-bottom: 62px;
+    box-shadow: 5px 1px 11px cadetblue;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hacking-tools-head:hover {
+    background-color: rgb(122, 229, 232);
+    color: black;
+    border: 2px solid rgb(0, 0, 0);
+    /* text-transform: uppercase; */
+    width: 60%
+}
+
+.hacking-tools-img2 img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.hacking-tools-img2 {
+    position: relative;
+}
+
+.ht-main {
+    width: 7%;
+}
+
+.ht-main img {
+    width: 100%;
+    border-radius: 50%;
+    height: 70px;
+}
+
+.ht-1 {
+    position: absolute;
+    top: 23%;
+    right: 38%;
+}
+
+.ht-2 {
+    position: absolute;
+    top: 12%;
+    right: 35%;
+}
+
+.ht-3 {
+    position: absolute;
+    top: 6%;
+    right: 26%;
+}
+
+.ht-4 {
+    position: absolute;
+    top: 8%;
+    right: 16%;
+}
+
+.ht-5 {
+    position: absolute;
+    top: 17%;
+    right: 11%;
+}
+
+.ht-6 {
+    position: absolute;
+    top: 29%;
+    right: 11%;
+}
+
+/* ---------------------------hacking-tools-finished------------------------- */
+
+
+/* ---------------------------hacking-accordion-started------------------------- */
+.hacking-accordion .accordion-button {
+    color: #a90cc2;
+    font-weight: 500;
+}
+
+/* ---------------------------hacking-accordion-finished------------------------- */
+
+
+/* ---------------------------hacking-accordion-started------------------------- */
+.hacking-accordion {
+    padding: 3% 0%;
+}
+
+.accordion-body {
+    background: black;
+    color: deepskyblue;
+}
+
+.accordion-button::after {
+    color: red;
+    font-size: 10px;
+}
+
+/* ---------------------------hacking-accordion-finished------------------------- */
+
+/* ---------------------------Red-Hat-Hacker-started------------------------- */
+.Red-Hat-Hacker {
+    background: black;
+    padding: 3% 0%;
+}
+
+.red-hat-second {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 69px;
+}
+.part1-text{
+    cursor: pointer;
+}
+.red-second-part1 {
+    align-items: center;
+}
+
+.part1-img {
+    width: 40%;
+}
+
+.part1-img img {
+    width: 100%;
+}
+
+.red-second-part2 {
+    width: 20%;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.round i {
+    font-size: 30px;
+}
+.red-hat-first :nth-child(2){
+    padding-top: 66px;
+}
+
+/* ---------------------------Red-Hat-Hacker-finished------------------------- */
+
+/* ---------------------------Hacker-Slider-started------------------------- */
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #ffe7e7;
+    width: 1%;
+    height: 7px;
+    border: 3px solid red;
+    border-radius: 50%;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target].active {
+    background-color: red;
+    border: 3px solid #ffffff;
+}
+
+.slider-img-same-size {
+    width: 80%;
+    margin: auto;
+}
+
+.carousel-control-prev {
+    left: -28px;
+}
+
+/* ---------------------------Hacker-Slider-finished------------------------- */
+
+
+/* ---------------------------hacker-form-started------------------------- */
+.hacker-form {
+    background-image: url('hacker-images/form-img.avif');
+    padding: 4% 0%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.img-circle-form {
+    position: absolute;
+    left: 29%;
+    bottom: 52%;
+    width: 10%;
+}
+
+.img-circle-form img {
+    width: 100%;
+    height: 119px;
+    border-radius: 50%;
+}
+
+.form-width {
+    background: rgb(105, 101, 101);
+    background: linear-gradient(95deg, rgba(105, 101, 101, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    border-radius: 10px;
+    width: 50%;
+    float: right;
+    padding: 2%;
+    color: black;
+}
+.form-width h1{
+    color: #3aa6a3;
+}
+
+.form-data {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-data input {
+    padding: 2% 3% 1% 4%;
+    border-radius: 10px;
+    width: 100%;
+    color: red;
+    background-color: black;
+    border: none;
+    box-shadow: 1px 1px 5px red
+}
+
+.form-data textarea {
+    border-radius: 10px;
+    padding: 2% 3% 1% 4%;
+    resize: none;
+    width: 100%;
+    height: 158px;
+    color: deepskyblue;
+    background-color: black;
+    border: none;
+    box-shadow: 2px 2px 6px deepskyblue;
+}
+
+.name-main {
+    position: relative;
+}
+
+.name {
+    position: absolute;
+    border-radius: 5px;
+    left: 3%;
+    background: #656161;
+    top: -31%;
+}
+
+.email-main {
+    position: relative;
+}
+
+.email {
+    position: absolute;
+    border-radius: 5px;
+    left: 3%;
+    background: #656161;
+    top: -31%;
+}
+
+.password-main {
+    position: relative;
+}
+
+.password {
+    position: absolute;
+    border-radius: 5px;
+    left: 3%;
+    background: #656161;
+    top: -31%;
+}
+
+.form-btn button {
+    display: flex;
+    width: 23%;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    background: black;
+    color: white;
+    padding: 1% 3%;
+    box-shadow: 1px 1px 5px ghostwhite;
+    transition: 0.4 s ease;
+}
+.form-btn button:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    box-shadow: 1px 1px 5px rgb(7, 7, 7);
+}
+
+button .btn-img {
+    width: 23%;
+    margin-left: 10px;
+}
+
+button .btn-img img {
+    width: 100%;
+}
+
+#show {
+    font-size: 18px;
+}
+
+/* ---------------------------hacker-form-finished------------------------- */
+
+/* ---------------------------blue-hat-hacker-started------------------------- */
+.blue-hat-hacker{
+    background-image: url('hacker-images/blue-hat-hacker-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 3% 0% 1%;
+}
+.hacker-blue{
+    width: 46%;
+    margin-left: 43%;
+}
+.hacker-blue img{
+    width: 100%;
+    border-radius: 10px;
+}
+.blue-hat-content{
+    width: 65%;
+}
+.blue-hat-content :nth-child(2){
+    padding-top: 42px;
+}
+.blue-hat-content :nth-child(3){
+    padding-top: 42px;
+}
+/* ---------------------------blue-hat-hacker-finished------------------------- */
+
+
+/* ---------------------------Hacker-middle-started------------------------- */
+.hacker-middle {
+    background-color: black;
+}
+
+.middle-image {
+    position: relative;
+}
+.middle-image img{
+    width: 100%;
+}
+.middle-1{position: absolute;bottom: 15%;left: 2%;}
+.middle-2{position: absolute;bottom: 15%;left: 12%;}
+.middle-3{position: absolute;bottom: 15%;left: 22%;}
+.middle-4{position: absolute;bottom: 31%;left: 7%;}
+.middle-5{position: absolute;bottom: 31%;left: 18%;}
+.middle-6{position: absolute;bottom: 31%;right: 7%;}
+.middle-7{position: absolute;bottom: 31%;right: 18%;}
+.middle-8{position: absolute;bottom: 15%;right:22% ;}
+.middle-9{position: absolute;bottom: 15%;right:12% ;}
+.middle-10{position: absolute;bottom: 15%;right: 2%;}
+.middle-eyes{position: absolute;    top: 26%;
+    left: 46%;}
+.heading-middle{
+    position: absolute;
+    top: 1%;
+    left: 39%;
+}
+.equal-size-middle {
+    width: 8%;
+}
+
+.equal-size-middle img {
+    width: 100%;
+    height: 80px;
+    border-radius: 50px;
+}
+
+/* ---------------------------Hacker-middle-finished------------------------- */
+
+/* ---------------------------green-Hat-Hacker-started------------------------- */
+.green-hat-hacker{
+    padding: 3% 0%;
+}
+.card{
+    width: 19rem;
+    height: 410px;
+}
+.green-card {
+    margin: auto;
+    width: 75%;
+}
+.btn-blue{
+    margin-top: 16px;
+}
+.btn-red{
+    margin-top: 38px;
+}
+/* ---------------------------green-Hat-Hacker-finished------------------------- */
+
+/* ---------------------------hacker-footer-finished------------------------- */
+.hacker-footer {
+    padding: 3% 0%;
+    background-color: black;
+}
+
+.hacker-footer ul {
+    padding: 0%;
+}
+
+.hacker-footer ul li {
+    padding: 7px 0px;
+}
+
+h6 {
+    font-size: 23px;
+}
+.about button{display: none;}
+
+h6 a {
+    transition: 0.5s ease-in-out;
+}
+
+h6 a:hover {
+    color: red;
+    letter-spacing: 4px;
+    font-size: 25px;
+}
+.social-media-icons{
+    float: right;
+}
+.social-media-icons i{
+    font-size: 34px;
+    padding: 0px 10px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.social-media-icons i:hover{
+    font-size: 38px;
+}
+.social-media-icons:hover i::before{
+    color: deepskyblue;
+}
+.social-media-icons i::before{
+    color: red;
+}
+/* ---------------------------hacker-footer-finished------------------------- */
+
+
+/* ---------------------------footer-ended-started------------------------- */
+.footer-ended{
+    background-color: black;
+}
+.pagination-demo{
+    display: flex;
+    justify-content: center;
+}
+.pagination {
+    --bs-pagination-bg:#80808000
+    --bs-pagination-color:blue;
+
+}
+/* ---------------------------footer-ended-finished------------------------- */
